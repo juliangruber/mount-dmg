@@ -1,0 +1,17 @@
+{
+  "name": "mount-dmg",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "juliangruber/mount-dmg",
+  "description": "Mount a .dmg file in macOS",
+  "scripts": {
+    "test": "prettier-standard '**.js' && standard"
+  },
+  "devDependencies": {
+    "prettier-standard": "^6.0.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "shell-escape": "^0.2.0"
+  }
+}
