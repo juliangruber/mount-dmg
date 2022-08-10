@@ -12,7 +12,8 @@ module.exports = async path => {
     .trim()
     .split('\n')
     .pop()
-    .split(/\s+/)
+    .split(/\t+/)
+    .map(s => s.trim())
   const unmount = () => exec(escape(['hdiutil', 'detach', diskPath]))
   return { diskPath, volumePath, unmount }
 }
