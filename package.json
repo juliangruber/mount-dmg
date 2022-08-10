@@ -5,11 +5,10 @@
   "repository": "juliangruber/mount-dmg",
   "description": "Mount a .dmg file in macOS",
   "scripts": {
-    "test": "prettier-standard '**.js' && standard"
+    "test": "standard --fix"
   },
   "devDependencies": {
-    "prettier-standard": "^6.0.0",
-    "standard": "^10.0.3"
+    "standard": "^17.0.0"
   },
   "dependencies": {
     "shell-escape": "^0.2.0"
